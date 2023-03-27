@@ -1,0 +1,71 @@
+.MainSection{
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:calc(100vh - 7rem);
+    gap: 2rem;
+}
+
+.taskInput{
+    width: 45%;
+    color:#3c4cad;
+    font-size:1.5rem;
+    transition: all 0.8s;
+
+
+}
+
+.taskInput:focus{
+    border: 1px solid #3c4cad;
+}
+
+
+.submitButton{
+    width: 25%;
+    background-color:#3c4cad;
+    font-size:1.5rem;
+    cursor: pointer;
+    color: white;
+    transition: all 0.8s;
+}
+.submitButton:hover{
+    color:#3c4cad;
+    background-color: white;
+    border: 1px solid #3c4cad;
+
+}
+
+.heading{
+    margin-bottom: 4rem;
+    letter-spacing: 0.3rem;
+    line-height: 1.5rem;
+    font-size: 2.5rem;
+    color:#3c4cad
+}
+
+.allTasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+
+.task_div{
+    padding: 2rem;
+    background-color: #3c4cad;
+    border-radius: 1rem;
+    color: white;
+    width: 10rem;
+    font-size: 1rem;
+}
+
+.icon_div{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
